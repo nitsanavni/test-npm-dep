@@ -19,7 +19,9 @@
     },
     "homepage": "https://github.com/nitsanavni/test-npm-dep#readme",
     "dependencies": {
+        "@types/jasmine": "^3.5.3",
         "@types/memory-cache": "^0.2.0",
+        "jasmine": "^3.5.0",
         "memory-cache": "^0.2.0",
         "typescript": "^3.7.5"
     }

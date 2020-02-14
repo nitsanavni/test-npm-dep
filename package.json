@@ -1,0 +1,26 @@
+{
+    "name": "secret-util",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nitsanavni/test-npm-dep.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nitsanavni/test-npm-dep/issues"
+    },
+    "homepage": "https://github.com/nitsanavni/test-npm-dep#readme",
+    "dependencies": {
+        "@types/memory-cache": "^0.2.0",
+        "memory-cache": "^0.2.0",
+        "typescript": "^3.7.5"
+    }
+}

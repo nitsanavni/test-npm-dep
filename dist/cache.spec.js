@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var cache_1 = require("../../utils/cache");
+var _1 = require(".");
 // TODO - move to own file
 var times = function (n, f) { return __awaiter(void 0, void 0, void 0, function () {
     var i;
@@ -79,7 +79,7 @@ describe("cache util", function () {
                                         switch (_b.label) {
                                             case 0:
                                                 _a = expect;
-                                                return [4 /*yield*/, cache_1.getPut(key, valueGetter)];
+                                                return [4 /*yield*/, _1.getPut(key, valueGetter)];
                                             case 1:
                                                 _a.apply(void 0, [_b.sent()]).toEqual(value);
                                                 expect(getterInvocations).toEqual(1);

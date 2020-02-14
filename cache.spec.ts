@@ -1,4 +1,4 @@
-import { getPut } from "../../utils/cache";
+import { getPut } from ".";
 
 // TODO - move to own file
 const times = async (n: number, f: () => void | Promise<void>) => {
